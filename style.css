@@ -1,0 +1,25 @@
+
+body {
+    padding-top: 56px;
+    background-color: #f8f9fa;
+}
+.profile-img {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border: 5px solid white;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+section {
+    padding: 60px 0;
+}
+/* Style khusus tabel biodata */
+.table-bio th {
+    width: 150px;
+    background-color: #f1f8ff;
+}
+.card-hover:hover {
+    transform: translateY(-5px);
+    transition: 0.3s;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
